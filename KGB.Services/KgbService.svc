@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="KGB.Services.Service1" CodeBehind="KgbService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="KGB.Services.KgbService" CodeBehind="KgbService.svc.cs" %>

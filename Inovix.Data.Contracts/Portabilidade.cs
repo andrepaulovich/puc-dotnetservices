@@ -10,7 +10,18 @@ namespace Inovix.Data.Contracts
     [DataContract]
     public class Portabilidade
     {
+
         [DataMember]
-        public string Name { get; set; }
+        public string Id { get; set; }
+
+        [DataMember]
+        public string CustomerDocument { get; set; }
+
+        [DataMember]
+        public string Old { get; set; }
+
+        [DataMember]
+        public string New { get; set; }
+
     }
 }

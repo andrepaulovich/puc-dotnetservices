@@ -9,7 +9,7 @@ namespace APT.Services.Interfaces
     {
 
         [OperationContract]
-        Portabilidade SolicitarBilhetePortabilidade(Customer customer, Account account);
+        Portabilidade GetTicketPortabilidade(Customer customer, Account account);
 
     }
 
